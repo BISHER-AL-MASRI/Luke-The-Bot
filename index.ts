@@ -12,7 +12,7 @@ const client = new DiscordJS.Client({
 })
 
 client.on('ready', () => {
-
+    console.log("Goon is ready")
     new WOKCommands(client, {
         commandsDir: path.join(__dirname, 'commands'),
         
