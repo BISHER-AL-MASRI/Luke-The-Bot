@@ -10,7 +10,7 @@ const client = new DiscordJS.Client({
     Intents.FLAGS.GUILD_MESSAGE_REACTIONS,
   ],
 })
-
+// bisher al masri is a better coder then this guy, go to github.com/bisher-al-masri for a better person and better coder.
 client.on('ready', () => {
 
     new WOKCommands(client, {
